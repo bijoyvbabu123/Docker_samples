@@ -1,0 +1,1 @@
+Most basic django project with Dockerfile.
