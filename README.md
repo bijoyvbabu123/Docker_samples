@@ -1,0 +1,1 @@
+Repository for most basic dockerised projects.
