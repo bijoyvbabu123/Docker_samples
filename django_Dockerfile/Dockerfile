@@ -15,7 +15,8 @@ COPY . $DockerHOME
 
 # environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+# to avoid buffering ( directly print to console )
+ENV PYTHONUNBUFFERED 1 
 
 # install dependencies
 RUN pip install --upgrade pip
